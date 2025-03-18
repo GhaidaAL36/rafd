@@ -1,0 +1,100 @@
+/* user dashborad style */
+
+.user-title{
+    display: flex;
+    flex-direction: column;
+    color: var(--secondary-green);
+    background-color: var(--primary-light);
+    padding: 2rem;
+}
+
+/* user info table style */
+.user-info-box-container {
+    padding: 2rem;
+    background: var(--primary-light);
+    max-width: 1200px;
+}
+
+.user-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-info-table th {
+    background: var(--secondary-purple);
+    color: var(--primary-light);
+    padding: 1rem;
+    text-align: right;
+    font-weight: 600;
+}
+
+.user-info-table td {
+    background: var(--primary-light);
+    padding: 1rem;
+    text-align: right;
+    color: var(--secondary-gray);
+}
+
+.user-info-table th, .user-info-table td {
+    border: 1px solid var(--secondary-gray);
+}
+
+/* loan requests table style */
+
+.status-pending {
+    color: #ff9800;
+    font-weight: bold;
+}
+
+.status-accepted {
+    color: #4caf50;
+    font-weight: bold;
+}
+
+.status-rejected {
+    color: #f44336;
+    font-weight: bold;
+}
+
+
+/* Bank Interface Styles */
+.bank-interface-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    background: var(--primary-light);
+    color: var(--secondary-green);
+}
+
+
+/* Loan Offers Table */
+.loan-offers-table , .loan-requests-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+.loan-offers-table th, .loan-requests-table th {
+    background: var(--secondary-green);
+    padding: 1rem;
+    color: var(--primary-light);
+}
+
+.loan-offers-table td, .loan-requests-table td {
+    padding: 1rem;
+    border: 1px solid var(--secondary-gray);
+}
+
+
+.approve-btn, .reject-btn, .add-offer-btn {
+    background-color: var(--secondary-green);
+    color: var(--primary-light);
+    padding: .8rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: var(--font-sm);
+    margin-top: 2rem;
+}
+
+

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/header-footer.css" />
+    <link rel="stylesheet" href="style/admin.css" />
+    <title>RAFD - Admin Panel</title>
+    <script src="scripts/admin.js"></script>
+    <script src="scripts/header-footer.js"></script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header id="header-section">
+      <img
+        class="circle-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="SVG Circle"
+      />
+
+      <!-- menu bar -->
+      <div class="container navbar-container">
+        <div class="navbar">
+          <a class="logo" href="#">رفد</a>
+
+          <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <ul class="nav-links">
+            <li><a href="index.html" class="menu-item"> الرئيسية</a></li> 
+            <li><a href="login.html" class="login-btn">تسجيل الدخول</a></li>
+            <li><a href="create-account.html" class="menu-item">انشاء حساب</a></li>         
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- admin panel section -->
+    <section id="admin-panel-section">
+      <div class="container admin-panel-container">
+        <h1>Admin Panel</h1>
+        <div id="database-info"></div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer id="footer-section">
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-logo">
+            <a href="#" class="logo">رفد</a>
+            <h6>رفد - منصة التمويل الذكي</h6>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li><a href="index.html#about-us-section">من نحن</a></li>
+              <li><a href="comparison.html">حاسبة العروض</a></li>
+              <li><a href="#contact-us-section">تواصل معنا</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        class="footer-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="Footer SVG"
+      />
+    </footer>
+  </body>
+</html>

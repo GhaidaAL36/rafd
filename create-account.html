@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style -->
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/create-account-login.css" />
+    <link rel="stylesheet" href="style/header-footer.css" />
+    <!-- scripts -->
+    <script src="scripts/header-footer.js"></script>
+    <title>RAFD-HOME PAGE</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header id="header-section">
+      <img
+        class="circle-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="SVG Circle"
+      />
+
+      <!-- menu bar -->
+      <div class="container navbar-container">
+        <div class="navbar">
+          <a class="logo" href="#">رفد</a>
+
+          <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <ul class="nav-links">
+            <li><a href="index.html" class="menu-item"> الرئيسية</a></li>
+            <li><a href="comparison.html" class="menu-item">حاسبة العروض</a></li>
+            <li><a href="#footer-section" class="menu-item">تواصل معنا</a></li>  
+            <li><a href="login.html" class="login-btn">تسجيل الدخول</a></li>
+            <li><a href="create-account.html" class="menu-item">انشاء حساب</a></li>         
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- create account box -->
+    <div class="container create-account-container">
+      <h1>انشاء حساب</h1>
+      <h5>انشى حسابك الان في امان</h5>
+      <div class="form-container">
+        <form action="#" method="post" class="auth-from">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="abs@gmail.com"
+            required
+          />
+
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="ادخل كلمة المرور"
+            required
+          />
+
+          <label for="confirm-password">Confirm Password</label>
+          <input
+            type="password"
+            id="confirm-password"
+            name="confirm-password"
+            placeholder="أكد كلمة المرور"
+            required
+          />
+          <!-- needs js to check -->
+
+          <!-- later for the fingerprint -->
+
+          <button type="submit" class="secondary-btn">أنشاء حساب</button>
+        </form>
+
+        <p>لديك حساب بالفعل ؟<a href="login.html">سجل الدخول هنا</a></p>
+      </div>
+    </div>
+
+    <!-- footer section -->
+    <footer id="footer-section">
+      <div class="footer-container">
+        <section id="contact-section" class="contact-section">
+          <div class="footer-title">
+            <h1>تواصل معنا</h1>
+            <img src="assets/contact-icon.svg" alt="" />
+          </div>
+          <p>نحن هنا للإجابة على جميع استفساراتك</p>
+          <div class="icon">
+            <h6>RAFD@gmail.com</h6>
+            <img src="assets/email-icon.svg" alt="" />
+          </div>
+        </section>
+        <div class="footer">
+          <div class="footer-logo">
+            <a href="#" class="logo">رفد</a>
+            <h6>رفد - منصة التمويل الذكي</h6>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="index.html#header-section">الرئيسية</a></li>
+              <li><a href="index.html#about-us-section">من نحن</a></li>
+              <li><a href="#">حاسبة العروض</a></li>
+              <li><a href="#contact-section">تواصل معنا</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        class="footer-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="Footer SVG"
+      />
+    </footer>
+  </body>
+</html>

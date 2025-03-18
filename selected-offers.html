@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/header-footer.css" />
+    <link rel="stylesheet" href="style/comparison.css" />
+    <title>RAFD - العروض المختارة</title>
+    <script src="scripts/selected-offers.js"></script>
+    <script src="scripts/header-footer.js"></script>
+  </head>
+  <body>
+    <!-- header section -->
+    <header id="header-section">
+      <img
+        class="circle-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="SVG Circle"
+      />
+
+      <!-- menu bar -->
+      <div class="container navbar-container">
+        <div class="navbar">
+          <a class="logo" href="#">رفد</a>
+
+          <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <ul class="nav-links">
+            <li><a href="index.html" class="menu-item"> الرئيسية</a></li>
+            <li><a href="comparison.html" class="menu-item">حاسبة العروض</a></li>
+            <li><a href="#footer-section" class="menu-item">تواصل معنا</a></li>  
+            <li><a href="login.html" class="login-btn">تسجيل الدخول</a></li>
+            <li><a href="create-account.html" class="menu-item">انشاء حساب</a></li>         
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- selected offers section -->
+    <section id="offers-list">
+      <div class="container selected-offers-container">
+        <h1>العروض المختارة</h1>
+        <div id="offers-list"></div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer id="footer-section">
+      <div class="footer-container">
+        <div class="contact-section">
+          <div class="footer-title">
+            <h1>تواصل معنا</h1>
+            <img src="assets/contact-icon.svg" alt="" />
+          </div>
+          <p>نحن هنا للإجابة على جميع استفساراتك</p>
+          <div class="icon">
+            <h6>RAFD@gmail.com</h6>
+            <img src="assets/email-icon.svg" alt="" />
+          </div>
+        </div>
+        <div class="footer">
+          <div class="footer-logo">
+            <a href="#" class="logo">رفد</a>
+            <h6>رفد - منصة التمويل الذكي</h6>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="index.html">الرئيسية</a></li>
+              <li><a href="index.html#about-us-section">من نحن</a></li>
+              <li><a href="comparison.html">حاسبة العروض</a></li>
+              <li><a href="#contact-us-section">تواصل معنا</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        class="footer-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="Footer SVG"
+      />
+    </footer>        
+  </body>
+</html>

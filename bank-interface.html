@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style -->
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="style/user-bank-ui.css" />
+    <link rel="stylesheet" href="style/header-footer.css" />
+    <!-- scripts -->
+    <script src="scripts/header-footer.js"></script>
+     
+    <title>RAFD-HOME PAGE</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <header id="header-section">
+      <img
+        class="circle-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="SVG Circle"
+      />
+
+      <!-- menu bar -->
+      <div class="container navbar-container">
+        <div class="navbar">
+          <a class="logo" href="#">رفد</a>
+
+          <button class="menu-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <ul class="nav-links">
+            <li><a href="index.html" class="menu-item"> الرئيسية</a></li>
+            <li><a href="comparison.html" class="menu-item">حاسبة العروض</a></li>
+            <li><a href="#footer-section" class="menu-item">تواصل معنا</a></li>  
+            <li><a href="login.html" class="login-btn">تسجيل الدخول</a></li>
+            <li><a href="create-account.html" class="menu-item">انشاء حساب</a></li>         
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="container bank-interface-container">
+      <h2>واجهة البنك | اسم البنك</h2>
+      <!-- js to display bank name -->
+
+      <!-- need js to make ir dynamic -->
+
+      <!-- Loan Offers Section -->
+      <section class="loan-offers">
+        <h3>عروض القروض</h3>
+        <table class="loan-offers-table">
+          <thead>
+            <tr>
+              <th>المبلغ</th>
+              <th>الفائدة</th>
+              <th>مدة السداد</th>
+              <th>الحالة</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span class="status-active"></span></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- update or add new loan offer button -->
+        <button class="add-offer-btn">إضافة عرض قرض جديد</button>
+      </section>
+
+      <!-- Loan Requests Section -->
+      <section class="loan-requests">
+        <h3>طلبات القروض الحالية</h3>
+        <table class="loan-requests-table">
+          <thead>
+            <tr>
+              <th>اسم العميل</th>
+              <th>المبلغ</th>
+              <th>تاريخ الطلب</th>
+              <th>الحالة</th>
+              <th>الإجراء</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td><span class="status-pending"></span></td>
+              <td>
+                <button class="approve-btn">قبول</button>
+                <button class="reject-btn">رفض</button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </div>
+
+    <!-- footer section -->
+    <footer id="footer-section">
+      <div class="footer-container">
+        <div class="footer">
+          <div class="footer-logo">
+            <a href="#" class="logo">رفد</a>
+            <h6>رفد - منصة التمويل الذكي</h6>
+          </div>
+          <div class="footer-links">
+            <ul>
+              <li><a href="index.html#header-section">الرئيسية</a></li>
+              <li><a href="index.html#about-us-section">من نحن</a></li>
+              <li><a href="#">حاسبة العروض</a></li>
+              <li><a href="index.html#contact-section">تواصل معنا</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <img
+        class="footer-svg"
+        src="assets/small-Ellipse-design.svg"
+        alt="Footer SVG"
+      />
+    </footer>
+  </body>
+</html>

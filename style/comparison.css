@@ -1,0 +1,130 @@
+#comparison-form-section {
+  padding: 4rem 1rem;
+  background-color: var(--primary-dark);
+}
+
+#comparison-form-section h1 , h5{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--primary-light); ;
+}
+
+.comparison-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--secondary-gray);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--primary-dark);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+#comparison-form .secondary-btn{
+ border-radius: 15px;
+}
+
+#comparison-form .secondary-btn:hover{
+ background-color: var(--secondary-gray);
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--primary-dark);
+}
+
+.form-group input {
+  max-width: 450px;
+  padding: 11px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+
+
+
+
+/* selcted offers style */
+
+#offers-list {
+    padding: 50px 0;
+    background-color: var(--secondary-gray);
+  }
+  
+  .selected-offers-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .selected-offers-container h1 {
+    text-align: center;
+    color: var(--primary-light);
+  }
+  
+  .offer-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    max-height: 120px; /* Initially, only part of the card is visible */
+  }
+  
+  .offer-card h2 {
+    margin-bottom: 10px;
+    color: var(--primary-dark);
+  }
+  
+  .offer-card p {
+    margin: 5px 0;
+    color: var(--primary-dark);
+  }
+  
+  .offer-card:hover {
+    max-height: 250px; /* Expand to show more details */
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .offer-card .extra-info {
+    opacity: 0;
+    visibility: hidden;
+    max-height: 0;
+    transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+  }
+  
+  .offer-card:hover .extra-info {
+    opacity: 1;
+    visibility: visible;
+    max-height: 150px;
+  }
+  
+  .apply-btn {
+    display: block;
+    text-align: center;
+    background-color: var(--secondary-green);
+    padding: 4px;
+    width: 150px;
+    max-height: 70px;
+    color: var(--primary-dark);
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background 0.3s;
+    font-family: var(--primary-font);
+    font-weight: bold;
+  }
+  
+  .apply-btn:hover {
+    background-color: var(--secondary-purple);
+  }
+  
